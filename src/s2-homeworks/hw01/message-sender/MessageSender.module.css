@@ -1,18 +1,59 @@
+/* Контейнер для формы отправки (textarea + кнопка) */
 .sendForm {
-
+  display: flex;
+  align-items: flex-end; /* Чтобы кнопка была внизу, если textarea растянется */
+  padding: 20px;
+  background-color: #ffffff;
+  border-top: 1px solid #f0f0f0;
+  gap: 12px;
 }
 
+/* Поле ввода сообщения */
 .textarea {
-
+  flex-grow: 1;
+  background-color: #f2f5f9;
+  border: 1px solid #f2f5f9;
+  border-radius: 20px; /* Закругленные края как на скрине */
+  padding: 12px 20px;
+  font-family: inherit;
+  font-size: 14px;
+  resize: none; /* Запрещаем ручное изменение размера пользователем */
+  outline: none;
+  transition: border-color 0.2s ease;
+  overflow: hidden; /* Чтобы scrollHeight работал корректно */
+  min-height: 40px;
+  line-height: 1.4;
 }
 
-.button {
+.textarea:focus {
+  border-color:  #06c;
+}
 
+.textarea::placeholder {
+  color: #8b96a3;
+}
+
+/* Кнопка отправки */
+.button {
+  background-color:  #06c; /* Синий цвет как в Telegram/WhatsApp */
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease, opacity 0.2s ease;
+  height: 40px; /* Фиксированная высота для выравнивания */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .button:hover {
-
+  background-color: #2a4d9b;
 }
-.button:active {
 
+.button:active {
+  opacity: 0.8;
 }
