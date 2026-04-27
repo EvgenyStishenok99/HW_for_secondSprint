@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/HW_for_secondSprint/static/css/main.18f8ca56.css",
-    "main.js": "/HW_for_secondSprint/static/js/main.38d512aa.js",
+    "main.css": "/HW_for_secondSprint/static/css/main.901ed722.css",
+    "main.js": "/HW_for_secondSprint/static/js/main.ea6a15d1.js",
     "static/js/787.66cb4309.chunk.js": "/HW_for_secondSprint/static/js/787.66cb4309.chunk.js",
-    "static/media/avatar.png": "/HW_for_secondSprint/static/media/avatar.d947cb9d0d13765666b6.png",
+    "static/media/Cristiano-Ronaldo.png": "/HW_for_secondSprint/static/media/Cristiano-Ronaldo.f4a52f059af14a9d01e7.png",
+    "static/media/messi.png": "/HW_for_secondSprint/static/media/messi.b61f2bd1323a2a268158.png",
     "index.html": "/HW_for_secondSprint/index.html",
-    "main.18f8ca56.css.map": "/HW_for_secondSprint/static/css/main.18f8ca56.css.map",
-    "main.38d512aa.js.map": "/HW_for_secondSprint/static/js/main.38d512aa.js.map",
+    "main.901ed722.css.map": "/HW_for_secondSprint/static/css/main.901ed722.css.map",
+    "main.ea6a15d1.js.map": "/HW_for_secondSprint/static/js/main.ea6a15d1.js.map",
     "787.66cb4309.chunk.js.map": "/HW_for_secondSprint/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18f8ca56.css",
-    "static/js/main.38d512aa.js"
+    "static/css/main.901ed722.css",
+    "static/js/main.ea6a15d1.js"
   ]
 }
